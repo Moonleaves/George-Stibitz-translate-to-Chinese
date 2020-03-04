@@ -41,7 +41,7 @@
 除了編程能力，後來的貝爾計算機還注重非凡的可靠性。 用作邏輯和記憶體操作的基本元素的繼電器有間歇性故障的趨勢。 如果在兩個繼電器觸點之間有灰塵積聚，則該電路將發生故障，儘管繼電器的其餘部分都好好的。 幾次循環後，灰塵顆粒可能會自行晃動，鬆脫然後一切恢復正常。 因此，整個計算可能會偏離，而在診斷期間不會出現任何機器故障。
 
 Bell's engineers designed computer circuits that checked themselves at every step of a computation. The circuits were designed not only to add, subtract, store numbers, and so on; they were also designed to check that they had done those things correctly, and to stop the machine otherwise. Bell's engineers were also guided by their experience in designing telephone circuits that had to operate long hours unattended in often hostile environments. Those circuits were designed to be repaired by semi-skilled technicians; telephone service would be terribly costly if an engineer had to be called in every time a phone line went down or a customer's phone went dead. The Bell Labs Models II through VI used a system whereby not four but seven binary relays coded each decimal digit. They were divided into two groups of two and five relays; the decimal code was as follows:
-貝爾的工程師設計了，可以在計算的每個步驟進行自我檢查的計算機電路。 電路的設計不僅要增加，減去，存儲數字等等。 他們還被設計為檢查自己是否正確完成了這些操作，否則將機器停止。 貝爾的工程師還以其設計電話電路的經驗為指導，這些電話電路必須在經常處於不利環境的情況下長時間無人值守。 這些電路設計為由半熟練的技術人員進行維修； 如果每次電話線掉線或客戶的電話壞了時都要打電話給工程師，電話服務的成本將非常高。 Bell Labs II至VI模型使用的系統中，每個十進制數字編碼的不是四個而是七個二進制繼電器。 它們分為兩組，每組兩個和五個繼電器； 十進制代碼如下：
+貝爾的工程師設計了，可以在計算的每個步驟進行自我檢查的計算機電路。 設計的電路不僅要增加，減去，儲存數字等等。 它們還被設計為可自我檢測是否正確完成了這些操作，否則停止機器。 貝爾的工程師還以其設計電話電路的經驗為借鑑，這些電話電路必須經常在無人值守的惡劣環境下長時間運轉。 這些電路設計為可被半熟練的技術人員進行維修； 如果每次電話線掉線或客戶的電話壞了時都要打電話給工程師，電話服務的成本將非常高。 Bell Labs II至VI模型使用的系統中，為每個十進制數字編碼的不是四個而是七個二進位繼電器。 它們分為兩組，兩個和五個繼電器； 十進制代碼如下：
 
 | 十進制數字 |繼電器 |繼電器  |
 |-------|---------|----------|
@@ -56,83 +56,89 @@ Bell's engineers designed computer circuits that checked themselves at every ste
 |8	|10	|01000|
 |9	|10	|10000|
 
+貝爾實驗室稱此系統為*二五進制記法*，因為繼電器的權重為一或五。 實際上，它不是這些數字基礎的組合； 而是一個七比特混合的十進制代碼。 所有的貝爾實驗室的繼電器計算機都以十進制算法工作。 一個特殊的電路檢查確保每個十進制數字只能有兩個繼電器通電。 另一個電路則檢查每個組中只能有一個繼電器是通電狀態，這可以防止兩個單獨的錯誤相互抵消，儘管某些異常組合可能無法檢測到。
+##生詞
+Relay computer 繼電器計算機
 
-Bell Labs called this system a "bi-quinary" notation, since the relays had a weight of either one or five. Actually, it is not a combination of those number bases; rather, it is a seven-bit, mixed decimal code. All the Bell Labs relay computers worked in decimal arithmetic. A special circuit checked to see that two and only two relays were energized for each decimal digit. Another circuit checked that for each group one and only one relay was on—that prevented two separate errors from canceling each other out, although certain unusual combinations of malfunctions could go undetected.
-貝爾實驗室稱此系統為“二元”表示法，因為繼電器的權重為一或五。 實際上，它不是這些數字基礎的組合； 而是一個七位混合十進制代碼。 所有的貝爾實驗室中繼計算機都以十進制算法工作。 一個特殊的電路檢查發現每個十進制數字有兩個，只有兩個繼電器通電。 另一個電路檢查了每個組中只有一個繼電器的接通狀態，這防止了兩個單獨的錯誤相互抵消，儘管某些異常組合可能無法檢測到。
-Relay computer : 繼電器計算機
+institution 機構
 
-institution : 機構
+frontiers 前沿
 
-frontiers : 前沿
+diodes 二極管
 
-diodes : 二極管
+point transistor 點接觸電晶體
 
-point transistor : 	點接觸電晶體
-
-transistor computer : 晶體管計算機
+transistor computer 晶體管計算機
 
 modem : 數據機
 
-first single-chip 32-bit processor : 32位元單晶片處理器
+first single-chip 32-bit processor 32位元單晶片處理器
 
-mathematician : 數學家
-stockroom 儲藏室
-dry cell 乾電池
+mathematician 數學家<br>
+stockroom 儲藏室<br>
+dry cell 乾電池<br>
 tobacco tin 煙錫
-adder 加法器
-speculated 推測
-relays binary adder 二進位繼電器加法器
-binary arithmetic 二進位算術/運算
-Bulky 笨重的
- a sequence of 一系列
- interim 臨時
- directing 指揮
- filter 濾波器
-amplifier  擴大機
-a roomful of 滿屋子的
-correspondence 對應
-demonstrated 演示
-executives 高管
-experimental 實驗性的
- finance 資助
- panels 面板
- multiposition 多位的;多位置的;多極的
- crossbars 交叉棒，橫桿
- Internally 內部地
- registers 暫存器
- operand 操作數
- bus 匯流排
- teletype 電傳打字機
- multiple-wire 束線
- teletype 電傳打字機
- prominent 傑出的
- foreshadowed 預示
- era 時代
-  unduly 過度地
-arose 出現
-marriage 合併
-ambitious 雄心勃勃的
-perforated 穿孔的
-analog 類比
-digital machine 數位計算機
-Interpolator 內插器
-antiaircraft fire 防空火力
-cemented 粘牢
-five-channel paper tape 五線紙帶
-Ballistic 彈道
-memory capacity 記憶體容量
-aiming 瞄準
-antiaircraft guns 高射砲
-sophisticated 複雜的
-antiaircraft shell 高射砲彈
-modest 謙卑
-fed in 餵
-aspect 方面
-take over 兼併
-availability 可用性
-capability 能力
-supervises 監督
-stressed 注重
-lodge 小屋
-loose 疏鬆
-diagnostic session 診斷會議
+adder 加法器<br>
+speculated 推測<br>
+relays binary adder 二進位繼電器加法器<br>
+binary arithmetic 二進位算術/運算<br>
+Bulky 笨重的<br>
+ a sequence of 一系列<br>
+ interim 臨時<br>
+ directing 指揮<br>
+ filter 濾波器<br>
+amplifier  擴大機<br>
+a roomful of 滿屋子的<br>
+correspondence 對應<br>
+demonstrated 演示<br>
+executives 高管<br>
+experimental 實驗性的<br>
+ finance 資助<br>
+ panels 面板<br>
+ multiposition 多位的;多位置的;多極的<br>
+ crossbars 交叉棒，橫桿<br>
+ Internally 內部地<br>
+ registers 暫存器<br>
+ operand 操作數<br>
+ bus 匯流排<br>
+ teletype 電傳打字機<br>
+ multiple-wire 束線<br>
+ teletype 電傳打字機<br>
+ prominent 傑出的<br>
+ foreshadowed 預示<br>
+ era 時代<br>
+  unduly 過度地<br>
+arose 出現<br>
+marriage 合併<br>
+ambitious 雄心勃勃的<br>
+perforated 穿孔的<br>
+analog 類比<br>
+digital machine 數位計算機<br>
+Interpolator 內插器<br>
+antiaircraft fire 防空火力<br>
+cemented 粘牢<br>
+five-channel paper tape 五線紙帶<br>
+Ballistic 彈道<br>
+memory capacity 記憶體容量<br>
+aiming 瞄準<br>
+antiaircraft guns 高射砲<br>
+sophisticated 複雜的<br>
+antiaircraft shell 高射砲彈<br>
+modest 謙卑<br>
+fed in 餵<br>
+aspect 方面<br>
+take over 兼併<br>
+availability 可用性<br>
+capability 能力<br>
+supervises 監督<br>
+stressed 注重<br>
+lodge 小屋<br>
+loose 疏鬆<br>
+diagnostic session 診斷會議<br>
+ unattended 無人值守<br>
+ hostile 敵對的<br>
+ semi-skilled 半熟練的<br>
+ bi-quinary notation 二五進制記法<br>
+ energized 通電<br>
+canceling...out 抵銷<br>
+separate 個別的<br>
